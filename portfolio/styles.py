@@ -9,27 +9,28 @@ def render_styles():
             top: 0;
             left: 0;
             width: 100%;
-            background: #111827;
+            background: #f9fafb; /* Light background */
             backdrop-filter: blur(8px);
             box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-            z-index: 1000; /* Ensure it stays above other content */
+            z-index: 1000;
             padding: 10px 20px;
         }
         .fixed-header .stButton > button {
             background: none;
             border: none;
-            color: #d1d5db;
+            color: #374151; /* Dark text for contrast */
             font-size: 16px;
             font-weight: 500;
             padding: 8px 16px;
             transition: color 0.2s;
         }
         .fixed-header .stButton > button:hover {
-            color: #93c5fd;
+            color: #2563eb; /* Blue hover for contrast */
         }
         /* Main Content */
         .main-content {
-            padding-top: 80px; /* Adjusted to account for fixed header height */
+            padding-top: 80px;
+            background: #ffffff; /* Light background for main content */
         }
         /* Section Styling */
         .section-title {
@@ -51,14 +52,14 @@ def render_styles():
         }
         .section-text {
             font-size: 1.25rem;
-            color: #4b5563;
+            color: #4b5563; /* Dark gray for readability */
             text-align: center;
             max-width: 768px;
             margin: 0 auto;
         }
         /* Card Styling */
         .card {
-            background: #ffffff;
+            background: #ffffff; /* Light background */
             border: 1px solid #e5e7eb;
             border-radius: 16px;
             padding: 24px;
@@ -84,7 +85,7 @@ def render_styles():
             transform: scale(1.05);
         }
         .outline-button {
-            border: 2px solid #d1d5db;
+            border: 2px solid #374151; /* Darker border for contrast */
             color: #374151 !important;
             border-radius: 9999px;
             padding: 12px 24px;
@@ -103,6 +104,20 @@ def render_styles():
             display: flex;
             flex-direction: column;
             justify-content: center;
+        }
+        /* Footer Styling */
+        footer {
+            background: #f9fafb; /* Light background */
+            color: #374151; /* Dark text for contrast */
+            padding: 32px 0;
+        }
+        footer .container {
+            max-width: 1280px;
+            padding: 0 24px;
+            margin: 0 auto;
+        }
+        footer span, footer i {
+            color: #6b7280; /* Adjusted for light theme */
         }
         /* Responsive Design */
         @media (max-width: 768px) {
