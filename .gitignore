@@ -1,0 +1,42 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+env/
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
+# IDE and editor files
+*.pyc
+*.pyo
+*.pyd
+*.log
+*.swp
+*.swo
+*.sublime-*
+*.vscode/
+*.idea/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Dependencies
+# (Keep requirements.txt, but ignore other dependency files if any)
+# Uncomment if you use pipenv or poetry
+# Pipfile.lock
+# poetry.lock
+
+# Testing
+.coverage
+htmlcov/
+
+# Miscellaneous
+*.bak
+*.tmp
