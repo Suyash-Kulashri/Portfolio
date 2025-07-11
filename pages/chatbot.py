@@ -12,7 +12,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 # Set up OpenAI API key
-openai_api_key = os.getenv("OPENAI_API_KEY")
+openai_api_key = os.getenv("OPENAI_API_KEY") or st.text_input("Enter your Open AI API key", type="password")
 st.write("OpenAI API Key:", openai_api_key)
 
 # Initialize session state for chat history and vector store
