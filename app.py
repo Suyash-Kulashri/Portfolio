@@ -13,15 +13,13 @@ from portfolio.styles import render_styles
 import sys
 sys.dont_write_bytecode = True
 
-st.info("View the Portfolio in light theme for better experience.", icon="ℹ️")
-
 st.set_page_config(
     page_title="Suyash Kulashri - AI/ML Engineer & Data Scientist",
     page_icon=":robot_face:",
     layout="wide",
     initial_sidebar_state="collapsed"
 )
-render_header()
+#render_header()
 
 # Render styles (CSS and FontAwesome)
 render_styles()

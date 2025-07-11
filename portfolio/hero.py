@@ -1,7 +1,7 @@
 import streamlit as st
 
 def render_hero():
-    st.markdown('<section id="hero">', unsafe_allow_html=True)
+    #st.markdown('<section id="hero">', unsafe_allow_html=True)
     st.markdown("""
         <div style="min-height: 100vh; display: flex; align-items: center; justify-content: center; background: linear-gradient(to bottom right, #eff6ff, #f5f3ff); position: relative; overflow: hidden;">
             <div style="position: absolute; top: 80px; left: 80px; width: 288px; height: 288px; background: #bfdbfe; border-radius: 9999px; filter: blur(72px); opacity: 0.3;"></div>
