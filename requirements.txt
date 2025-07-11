@@ -1,2 +1,11 @@
 streamlit
 streamlit-antd-components
+langchain 
+PyPDF2 
+python-dotenv 
+google-generativeai 
+faiss-cpu
+langchain-community
+langchain-google-genai
+langchain-openai
+langchain-text-splitters
